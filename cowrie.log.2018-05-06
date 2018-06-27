@@ -1,0 +1,867 @@
+2018-05-06T17:44:04.922377+0000 [-] Python Version 2.7.9 (default, Jun 29 2016, 13:08:31) [GCC 4.9.2]
+2018-05-06T17:44:04.922481+0000 [-] Twisted Version 17.9.0
+2018-05-06T17:44:04.928891+0000 [-] Loaded output engine: jsonlog
+2018-05-06T17:44:04.931120+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.9.0 (/cowrie/cowrie-git/cowrie-env/bin/python2 2.7.9) starting up.
+2018-05-06T17:44:04.931442+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2018-05-06T17:44:04.932778+0000 [-] CowrieSSHFactory starting on 2222
+2018-05-06T17:44:04.933105+0000 [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory instance at 0x7fa56cdf1ab8>
+2018-05-06T17:44:04.933549+0000 [-] Generating new RSA keypair...
+2018-05-06T17:44:05.070853+0000 [-] Generating new DSA keypair...
+2018-05-06T17:44:05.387340+0000 [-] Ready to accept SSH connections
+2018-05-06T17:44:05.863904+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T17:44:05.864288+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T17:44:05.866769+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 88.223.26.58:52577 (172.17.0.3:2222) [session: 173332e506ca]
+2018-05-06T17:44:05.877228+0000 [HoneyPotSSHTransport,0,88.223.26.58] Remote SSH version: SSH-2.0-OpenSSH_7.7
+2018-05-06T17:44:05.884616+0000 [HoneyPotSSHTransport,0,88.223.26.58] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T17:44:05.884875+0000 [HoneyPotSSHTransport,0,88.223.26.58] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:05.885118+0000 [HoneyPotSSHTransport,0,88.223.26.58] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:05.943563+0000 [HoneyPotSSHTransport,0,88.223.26.58] connection lost
+2018-05-06T17:44:05.943970+0000 [HoneyPotSSHTransport,0,88.223.26.58] Connection lost after 0 seconds
+2018-05-06T17:44:29.629631+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T17:44:29.630099+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T17:44:29.630746+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 88.223.26.58:52579 (172.17.0.3:2222) [session: c9105796d915]
+2018-05-06T17:44:29.643145+0000 [HoneyPotSSHTransport,1,88.223.26.58] Remote SSH version: SSH-2.0-OpenSSH_7.7
+2018-05-06T17:44:29.650605+0000 [HoneyPotSSHTransport,1,88.223.26.58] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T17:44:29.650876+0000 [HoneyPotSSHTransport,1,88.223.26.58] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:29.651116+0000 [HoneyPotSSHTransport,1,88.223.26.58] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:29.714930+0000 [HoneyPotSSHTransport,1,88.223.26.58] connection lost
+2018-05-06T17:44:29.715325+0000 [HoneyPotSSHTransport,1,88.223.26.58] Connection lost after 0 seconds
+2018-05-06T17:44:36.669834+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T17:44:36.670217+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T17:44:36.670934+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 88.223.26.58:52580 (172.17.0.3:2222) [session: 769441eed937]
+2018-05-06T17:44:36.682449+0000 [HoneyPotSSHTransport,2,88.223.26.58] Remote SSH version: SSH-2.0-OpenSSH_7.7
+2018-05-06T17:44:36.689803+0000 [HoneyPotSSHTransport,2,88.223.26.58] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T17:44:36.690062+0000 [HoneyPotSSHTransport,2,88.223.26.58] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:36.690318+0000 [HoneyPotSSHTransport,2,88.223.26.58] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:36.750501+0000 [HoneyPotSSHTransport,2,88.223.26.58] connection lost
+2018-05-06T17:44:36.750905+0000 [HoneyPotSSHTransport,2,88.223.26.58] Connection lost after 0 seconds
+2018-05-06T17:44:48.569395+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T17:44:48.569810+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T17:44:48.570502+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 88.223.26.58:52581 (172.17.0.3:2222) [session: ef410359268d]
+2018-05-06T17:44:48.588198+0000 [HoneyPotSSHTransport,3,88.223.26.58] Remote SSH version: SSH-2.0-OpenSSH_7.7
+2018-05-06T17:44:48.595616+0000 [HoneyPotSSHTransport,3,88.223.26.58] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T17:44:48.595873+0000 [HoneyPotSSHTransport,3,88.223.26.58] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:48.596115+0000 [HoneyPotSSHTransport,3,88.223.26.58] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:44:49.695059+0000 [HoneyPotSSHTransport,3,88.223.26.58] NEW KEYS
+2018-05-06T17:44:49.740586+0000 [HoneyPotSSHTransport,3,88.223.26.58] starting service 'ssh-userauth'
+2018-05-06T17:44:49.750975+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3,88.223.26.58] 'root' trying auth 'none'
+2018-05-06T17:44:49.765075+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3,88.223.26.58] 'root' trying auth 'keyboard-interactive'
+2018-05-06T17:44:51.165980+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3,88.223.26.58] login attempt [root/password] succeeded
+2018-05-06T17:44:51.170207+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3,88.223.26.58] 'root' authenticated with 'keyboard-interactive'
+2018-05-06T17:44:51.170747+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3,88.223.26.58] starting service 'ssh-connection'
+2018-05-06T17:44:51.180208+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] got channel 'session' request
+2018-05-06T17:44:51.180745+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] channel open
+2018-05-06T17:44:51.181181+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] got global no-more-sessions@openssh.com request
+2018-05-06T17:44:52.382046+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] pty request: 'xterm-256color' (56, 121, 0, 0)
+2018-05-06T17:44:52.382471+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Terminal Size: 56 121
+2018-05-06T17:44:52.386345+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] request_env: LC_ALL=lt_LT.UTF-8
+2018-05-06T17:44:52.389910+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] request_env: LANG=lt_LT.UTF-8
+2018-05-06T17:44:52.393421+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] request_env: LC_CTYPE=UTF-8
+2018-05-06T17:44:52.396986+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] getting shell
+2018-05-06T17:44:52.398002+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Opening TTY Log: log/tty/20180506-174452-ef410359268d-0i.log
+2018-05-06T17:44:57.757002+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] CMD: ls
+2018-05-06T17:44:57.761403+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Command found: ls 
+2018-05-06T17:45:01.142441+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] CMD: find /
+2018-05-06T17:45:01.146780+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Command not found: find /
+2018-05-06T17:45:03.708145+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] CMD: ls /
+2018-05-06T17:45:03.712490+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Command found: ls /
+2018-05-06T17:45:07.120664+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Received CTRL-D, exiting..
+2018-05-06T17:45:07.121525+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] exitCode: 0
+2018-05-06T17:45:07.121827+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] sending request 'exit-status'
+2018-05-06T17:45:07.122229+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] Closing TTY Log: log/tty/20180506-174452-ef410359268d-0i.log after 14 seconds
+2018-05-06T17:45:07.126475+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] sending close 0
+2018-05-06T17:45:07.134732+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3,88.223.26.58] remote close
+2018-05-06T17:45:07.135493+0000 [HoneyPotSSHTransport,3,88.223.26.58] Got remote error, code 11
+	reason: disconnected by user
+2018-05-06T17:45:07.136173+0000 [HoneyPotSSHTransport,3,88.223.26.58] avatar root logging out
+2018-05-06T17:45:07.136461+0000 [HoneyPotSSHTransport,3,88.223.26.58] connection lost
+2018-05-06T17:45:07.136717+0000 [HoneyPotSSHTransport,3,88.223.26.58] Connection lost after 18 seconds
+2018-05-06T17:46:00.572190+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T17:46:00.572667+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T17:46:00.573326+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 88.223.26.58:52619 (172.17.0.3:2222) [session: e0d7e544860d]
+2018-05-06T17:46:00.583166+0000 [HoneyPotSSHTransport,4,88.223.26.58] Remote SSH version: SSH-2.0-OpenSSH_7.7
+2018-05-06T17:46:00.590665+0000 [HoneyPotSSHTransport,4,88.223.26.58] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T17:46:00.590933+0000 [HoneyPotSSHTransport,4,88.223.26.58] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:46:00.591178+0000 [HoneyPotSSHTransport,4,88.223.26.58] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2018-05-06T17:46:00.640177+0000 [HoneyPotSSHTransport,4,88.223.26.58] NEW KEYS
+2018-05-06T17:46:00.682620+0000 [HoneyPotSSHTransport,4,88.223.26.58] starting service 'ssh-userauth'
+2018-05-06T17:46:00.688292+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4,88.223.26.58] 'root' trying auth 'none'
+2018-05-06T17:46:00.693587+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4,88.223.26.58] 'root' trying auth 'keyboard-interactive'
+2018-05-06T17:46:02.803580+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4,88.223.26.58] login attempt [root/password] succeeded
+2018-05-06T17:46:02.807773+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4,88.223.26.58] 'root' authenticated with 'keyboard-interactive'
+2018-05-06T17:46:02.808291+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4,88.223.26.58] starting service 'ssh-connection'
+2018-05-06T17:46:02.813494+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] got channel 'session' request
+2018-05-06T17:46:02.814107+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] channel open
+2018-05-06T17:46:02.814658+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] got global no-more-sessions@openssh.com request
+2018-05-06T17:46:03.946808+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] pty request: 'xterm-256color' (56, 121, 0, 0)
+2018-05-06T17:46:03.947206+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] Terminal Size: 56 121
+2018-05-06T17:46:03.951112+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] request_env: LC_ALL=lt_LT.UTF-8
+2018-05-06T17:46:03.954812+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] request_env: LANG=lt_LT.UTF-8
+2018-05-06T17:46:03.958338+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] request_env: LC_CTYPE=UTF-8
+2018-05-06T17:46:03.961947+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] getting shell
+2018-05-06T17:46:03.962887+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] Opening TTY Log: log/tty/20180506-174603-e0d7e544860d-0i.log
+2018-05-06T17:46:05.730142+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] CMD: uname -a
+2018-05-06T17:46:05.734792+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] Command found: uname -a
+2018-05-06T17:46:07.657275+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] Received CTRL-D, exiting..
+2018-05-06T17:46:07.658154+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] exitCode: 0
+2018-05-06T17:46:07.658505+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] sending request 'exit-status'
+2018-05-06T17:46:07.658919+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] Closing TTY Log: log/tty/20180506-174603-e0d7e544860d-0i.log after 3 seconds
+2018-05-06T17:46:07.663029+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] sending close 0
+2018-05-06T17:46:07.670571+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4,88.223.26.58] remote close
+2018-05-06T17:46:07.671274+0000 [HoneyPotSSHTransport,4,88.223.26.58] Got remote error, code 11
+	reason: disconnected by user
+2018-05-06T17:46:07.671998+0000 [HoneyPotSSHTransport,4,88.223.26.58] avatar root logging out
+2018-05-06T17:46:07.672282+0000 [HoneyPotSSHTransport,4,88.223.26.58] connection lost
+2018-05-06T17:46:07.672565+0000 [HoneyPotSSHTransport,4,88.223.26.58] Connection lost after 7 seconds
+2018-05-06T18:36:21.284108+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T18:36:21.284498+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T18:36:21.285118+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 105.184.22.235:57830 (172.17.0.3:2222) [session: b99d45cd5d62]
+2018-05-06T18:36:22.113864+0000 [HoneyPotSSHTransport,5,105.184.22.235] connection lost
+2018-05-06T18:36:22.114321+0000 [HoneyPotSSHTransport,5,105.184.22.235] Connection lost after 0 seconds
+2018-05-06T22:09:34.229258+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:09:34.229650+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:09:34.230329+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:46367 (172.17.0.3:2222) [session: c0b98ec47055]
+2018-05-06T22:09:34.245642+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:09:34.245958+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:09:34.246519+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:46426 (172.17.0.3:2222) [session: c4f38e8bb561]
+2018-05-06T22:09:34.448583+0000 [HoneyPotSSHTransport,6,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:09:34.454836+0000 [HoneyPotSSHTransport,6,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:09:34.455093+0000 [HoneyPotSSHTransport,6,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:34.455335+0000 [HoneyPotSSHTransport,6,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:34.465098+0000 [HoneyPotSSHTransport,7,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:09:34.471289+0000 [HoneyPotSSHTransport,7,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:09:34.471564+0000 [HoneyPotSSHTransport,7,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:34.471807+0000 [HoneyPotSSHTransport,7,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:34.956151+0000 [HoneyPotSSHTransport,6,221.194.47.236] NEW KEYS
+2018-05-06T22:09:35.000015+0000 [HoneyPotSSHTransport,7,221.194.47.236] NEW KEYS
+2018-05-06T22:09:35.169219+0000 [HoneyPotSSHTransport,6,221.194.47.236] starting service 'ssh-userauth'
+2018-05-06T22:09:35.213045+0000 [HoneyPotSSHTransport,7,221.194.47.236] starting service 'ssh-userauth'
+2018-05-06T22:09:35.382841+0000 [HoneyPotSSHTransport,6,221.194.47.236] Got remote error, code 11
+	reason: 
+2018-05-06T22:09:35.383535+0000 [HoneyPotSSHTransport,6,221.194.47.236] connection lost
+2018-05-06T22:09:35.383827+0000 [HoneyPotSSHTransport,6,221.194.47.236] Connection lost after 1 seconds
+2018-05-06T22:09:35.426571+0000 [HoneyPotSSHTransport,7,221.194.47.236] Got remote error, code 11
+	reason: 
+2018-05-06T22:09:35.427235+0000 [HoneyPotSSHTransport,7,221.194.47.236] connection lost
+2018-05-06T22:09:35.427530+0000 [HoneyPotSSHTransport,7,221.194.47.236] Connection lost after 1 seconds
+2018-05-06T22:09:49.519734+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:09:49.520117+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:09:49.520714+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.6:46978 (172.17.0.3:2222) [session: 72c4e2c88d4f]
+2018-05-06T22:09:49.818146+0000 [HoneyPotSSHTransport,8,115.238.245.6] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:09:49.824371+0000 [HoneyPotSSHTransport,8,115.238.245.6] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:09:49.824627+0000 [HoneyPotSSHTransport,8,115.238.245.6] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:49.824864+0000 [HoneyPotSSHTransport,8,115.238.245.6] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:09:50.337385+0000 [HoneyPotSSHTransport,8,115.238.245.6] NEW KEYS
+2018-05-06T22:09:50.571790+0000 [HoneyPotSSHTransport,8,115.238.245.6] starting service 'ssh-userauth'
+2018-05-06T22:09:50.833068+0000 [HoneyPotSSHTransport,8,115.238.245.6] Got remote error, code 11
+	reason: 
+2018-05-06T22:09:50.833806+0000 [HoneyPotSSHTransport,8,115.238.245.6] connection lost
+2018-05-06T22:09:50.834100+0000 [HoneyPotSSHTransport,8,115.238.245.6] Connection lost after 1 seconds
+2018-05-06T22:10:29.023299+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:10:29.023690+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:10:29.024252+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:40900 (172.17.0.3:2222) [session: 014afb77ad36]
+2018-05-06T22:10:29.243211+0000 [HoneyPotSSHTransport,9,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:10:29.249429+0000 [HoneyPotSSHTransport,9,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:10:29.249684+0000 [HoneyPotSSHTransport,9,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:10:29.249926+0000 [HoneyPotSSHTransport,9,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:10:29.746979+0000 [HoneyPotSSHTransport,9,221.194.47.243] NEW KEYS
+2018-05-06T22:10:29.957082+0000 [HoneyPotSSHTransport,9,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:10:30.167686+0000 [HoneyPotSSHTransport,9,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:10:30.168414+0000 [HoneyPotSSHTransport,9,221.194.47.243] connection lost
+2018-05-06T22:10:30.168710+0000 [HoneyPotSSHTransport,9,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:10:51.062193+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:10:51.062624+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:10:51.063209+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.2:50311 (172.17.0.3:2222) [session: 9dbff381499a]
+2018-05-06T22:10:51.368844+0000 [HoneyPotSSHTransport,10,115.238.245.2] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:10:51.375107+0000 [HoneyPotSSHTransport,10,115.238.245.2] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:10:51.375362+0000 [HoneyPotSSHTransport,10,115.238.245.2] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:10:51.375601+0000 [HoneyPotSSHTransport,10,115.238.245.2] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:10:52.078758+0000 [HoneyPotSSHTransport,10,115.238.245.2] NEW KEYS
+2018-05-06T22:10:52.371137+0000 [HoneyPotSSHTransport,10,115.238.245.2] starting service 'ssh-userauth'
+2018-05-06T22:10:52.737020+0000 [HoneyPotSSHTransport,10,115.238.245.2] Got remote error, code 11
+	reason: 
+2018-05-06T22:10:52.737725+0000 [HoneyPotSSHTransport,10,115.238.245.2] connection lost
+2018-05-06T22:10:52.738016+0000 [HoneyPotSSHTransport,10,115.238.245.2] Connection lost after 1 seconds
+2018-05-06T22:11:05.853836+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:11:05.854223+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:11:05.854901+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.239:51313 (172.17.0.3:2222) [session: d17164956fa6]
+2018-05-06T22:11:06.075741+0000 [HoneyPotSSHTransport,11,221.194.47.239] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:11:06.083531+0000 [HoneyPotSSHTransport,11,221.194.47.239] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:11:06.083799+0000 [HoneyPotSSHTransport,11,221.194.47.239] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:11:06.084038+0000 [HoneyPotSSHTransport,11,221.194.47.239] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:11:06.591044+0000 [HoneyPotSSHTransport,11,221.194.47.239] NEW KEYS
+2018-05-06T22:11:06.809572+0000 [HoneyPotSSHTransport,11,221.194.47.239] starting service 'ssh-userauth'
+2018-05-06T22:11:07.029557+0000 [HoneyPotSSHTransport,11,221.194.47.239] Got remote error, code 11
+	reason: 
+2018-05-06T22:11:07.030369+0000 [HoneyPotSSHTransport,11,221.194.47.239] connection lost
+2018-05-06T22:11:07.030673+0000 [HoneyPotSSHTransport,11,221.194.47.239] Connection lost after 1 seconds
+2018-05-06T22:11:22.777821+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:11:22.778208+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:11:22.778877+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 122.226.181.164:34018 (172.17.0.3:2222) [session: 79fd36bbef38]
+2018-05-06T22:11:23.011978+0000 [HoneyPotSSHTransport,12,122.226.181.164] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:11:23.018305+0000 [HoneyPotSSHTransport,12,122.226.181.164] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:11:23.018572+0000 [HoneyPotSSHTransport,12,122.226.181.164] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:11:23.018814+0000 [HoneyPotSSHTransport,12,122.226.181.164] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:11:23.552424+0000 [HoneyPotSSHTransport,12,122.226.181.164] NEW KEYS
+2018-05-06T22:11:23.781141+0000 [HoneyPotSSHTransport,12,122.226.181.164] starting service 'ssh-userauth'
+2018-05-06T22:11:24.010447+0000 [HoneyPotSSHTransport,12,122.226.181.164] Got remote error, code 11
+	reason: 
+2018-05-06T22:11:24.011193+0000 [HoneyPotSSHTransport,12,122.226.181.164] connection lost
+2018-05-06T22:11:24.011487+0000 [HoneyPotSSHTransport,12,122.226.181.164] Connection lost after 1 seconds
+2018-05-06T22:14:13.933902+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:14:13.934341+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:14:13.934928+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.4:50489 (172.17.0.3:2222) [session: fbe41c794b71]
+2018-05-06T22:14:14.245175+0000 [HoneyPotSSHTransport,13,115.238.245.4] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:14:14.251399+0000 [HoneyPotSSHTransport,13,115.238.245.4] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:14:14.251654+0000 [HoneyPotSSHTransport,13,115.238.245.4] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:14:14.251893+0000 [HoneyPotSSHTransport,13,115.238.245.4] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:14:14.932329+0000 [HoneyPotSSHTransport,13,115.238.245.4] NEW KEYS
+2018-05-06T22:14:15.224982+0000 [HoneyPotSSHTransport,13,115.238.245.4] starting service 'ssh-userauth'
+2018-05-06T22:14:15.568116+0000 [HoneyPotSSHTransport,13,115.238.245.4] Got remote error, code 11
+	reason: 
+2018-05-06T22:14:15.568865+0000 [HoneyPotSSHTransport,13,115.238.245.4] connection lost
+2018-05-06T22:14:15.569161+0000 [HoneyPotSSHTransport,13,115.238.245.4] Connection lost after 1 seconds
+2018-05-06T22:14:28.388301+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:14:28.388683+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:14:28.389238+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:36791 (172.17.0.3:2222) [session: 0bf54d7b28ff]
+2018-05-06T22:14:28.603576+0000 [HoneyPotSSHTransport,14,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:14:28.609800+0000 [HoneyPotSSHTransport,14,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:14:28.610055+0000 [HoneyPotSSHTransport,14,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:14:28.610308+0000 [HoneyPotSSHTransport,14,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:14:29.106490+0000 [HoneyPotSSHTransport,14,221.194.47.221] NEW KEYS
+2018-05-06T22:14:29.316294+0000 [HoneyPotSSHTransport,14,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T22:14:29.526717+0000 [HoneyPotSSHTransport,14,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T22:14:29.527469+0000 [HoneyPotSSHTransport,14,221.194.47.221] connection lost
+2018-05-06T22:14:29.527765+0000 [HoneyPotSSHTransport,14,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T22:15:03.583470+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:15:03.583858+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:15:03.584416+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:47457 (172.17.0.3:2222) [session: 04ec88ff6c4d]
+2018-05-06T22:15:03.799567+0000 [HoneyPotSSHTransport,15,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:15:03.805771+0000 [HoneyPotSSHTransport,15,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:15:03.806026+0000 [HoneyPotSSHTransport,15,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:15:03.806278+0000 [HoneyPotSSHTransport,15,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:15:04.304659+0000 [HoneyPotSSHTransport,15,221.194.47.243] NEW KEYS
+2018-05-06T22:15:04.515519+0000 [HoneyPotSSHTransport,15,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:15:04.726916+0000 [HoneyPotSSHTransport,15,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:15:04.727613+0000 [HoneyPotSSHTransport,15,221.194.47.243] connection lost
+2018-05-06T22:15:04.727906+0000 [HoneyPotSSHTransport,15,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:15:55.659895+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:15:55.660282+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:15:55.660836+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:57021 (172.17.0.3:2222) [session: f45016fe5b2f]
+2018-05-06T22:15:55.876334+0000 [HoneyPotSSHTransport,16,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:15:55.882609+0000 [HoneyPotSSHTransport,16,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:15:55.882865+0000 [HoneyPotSSHTransport,16,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:15:55.883102+0000 [HoneyPotSSHTransport,16,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:15:56.382082+0000 [HoneyPotSSHTransport,16,221.194.47.243] NEW KEYS
+2018-05-06T22:15:56.593245+0000 [HoneyPotSSHTransport,16,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:15:56.804935+0000 [HoneyPotSSHTransport,16,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:15:56.805633+0000 [HoneyPotSSHTransport,16,221.194.47.243] connection lost
+2018-05-06T22:15:56.805925+0000 [HoneyPotSSHTransport,16,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:16:12.549008+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:16:12.549390+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:16:12.550013+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:50104 (172.17.0.3:2222) [session: a77e5434d3ed]
+2018-05-06T22:16:12.764227+0000 [HoneyPotSSHTransport,17,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:16:12.770508+0000 [HoneyPotSSHTransport,17,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:16:12.770766+0000 [HoneyPotSSHTransport,17,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:12.771007+0000 [HoneyPotSSHTransport,17,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:13.266030+0000 [HoneyPotSSHTransport,17,221.194.47.221] NEW KEYS
+2018-05-06T22:16:13.475964+0000 [HoneyPotSSHTransport,17,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T22:16:13.687045+0000 [HoneyPotSSHTransport,17,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T22:16:13.687761+0000 [HoneyPotSSHTransport,17,221.194.47.221] connection lost
+2018-05-06T22:16:13.688053+0000 [HoneyPotSSHTransport,17,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T22:16:24.999247+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:16:24.999630+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:16:25.000179+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.4:33364 (172.17.0.3:2222) [session: 528f15dae0dd]
+2018-05-06T22:16:25.243483+0000 [HoneyPotSSHTransport,18,115.238.245.4] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:16:25.249692+0000 [HoneyPotSSHTransport,18,115.238.245.4] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:16:25.249949+0000 [HoneyPotSSHTransport,18,115.238.245.4] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:25.250186+0000 [HoneyPotSSHTransport,18,115.238.245.4] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:25.803586+0000 [HoneyPotSSHTransport,18,115.238.245.4] NEW KEYS
+2018-05-06T22:16:26.042367+0000 [HoneyPotSSHTransport,18,115.238.245.4] starting service 'ssh-userauth'
+2018-05-06T22:16:26.281746+0000 [HoneyPotSSHTransport,18,115.238.245.4] Got remote error, code 11
+	reason: 
+2018-05-06T22:16:26.282532+0000 [HoneyPotSSHTransport,18,115.238.245.4] connection lost
+2018-05-06T22:16:26.282832+0000 [HoneyPotSSHTransport,18,115.238.245.4] Connection lost after 1 seconds
+2018-05-06T22:16:53.107162+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:16:53.107549+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:16:53.108103+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.239:45456 (172.17.0.3:2222) [session: 644e1eaea85f]
+2018-05-06T22:16:53.422875+0000 [HoneyPotSSHTransport,19,221.194.47.239] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:16:53.429191+0000 [HoneyPotSSHTransport,19,221.194.47.239] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:16:53.429445+0000 [HoneyPotSSHTransport,19,221.194.47.239] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:53.429682+0000 [HoneyPotSSHTransport,19,221.194.47.239] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:16:54.053735+0000 [HoneyPotSSHTransport,19,221.194.47.239] NEW KEYS
+2018-05-06T22:16:54.266074+0000 [HoneyPotSSHTransport,19,221.194.47.239] starting service 'ssh-userauth'
+2018-05-06T22:16:54.610702+0000 [HoneyPotSSHTransport,19,221.194.47.239] Got remote error, code 11
+	reason: 
+2018-05-06T22:16:54.611462+0000 [HoneyPotSSHTransport,19,221.194.47.239] connection lost
+2018-05-06T22:16:54.611758+0000 [HoneyPotSSHTransport,19,221.194.47.239] Connection lost after 1 seconds
+2018-05-06T22:17:25.238575+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:17:25.238960+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:17:25.239519+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:55401 (172.17.0.3:2222) [session: bf25aa0f4bfd]
+2018-05-06T22:17:25.456935+0000 [HoneyPotSSHTransport,20,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:17:25.463312+0000 [HoneyPotSSHTransport,20,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:17:25.463570+0000 [HoneyPotSSHTransport,20,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:25.463807+0000 [HoneyPotSSHTransport,20,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:25.963217+0000 [HoneyPotSSHTransport,20,221.194.47.221] NEW KEYS
+2018-05-06T22:17:26.175441+0000 [HoneyPotSSHTransport,20,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T22:17:26.388253+0000 [HoneyPotSSHTransport,20,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T22:17:26.389019+0000 [HoneyPotSSHTransport,20,221.194.47.221] connection lost
+2018-05-06T22:17:26.389314+0000 [HoneyPotSSHTransport,20,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T22:17:52.033275+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:17:52.033663+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:17:52.034220+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.6:38155 (172.17.0.3:2222) [session: e4abe1f9a22c]
+2018-05-06T22:17:52.280143+0000 [HoneyPotSSHTransport,21,115.238.245.6] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:17:52.286443+0000 [HoneyPotSSHTransport,21,115.238.245.6] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:17:52.286705+0000 [HoneyPotSSHTransport,21,115.238.245.6] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:52.286944+0000 [HoneyPotSSHTransport,21,115.238.245.6] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:52.799929+0000 [HoneyPotSSHTransport,21,115.238.245.6] NEW KEYS
+2018-05-06T22:17:53.031471+0000 [HoneyPotSSHTransport,21,115.238.245.6] starting service 'ssh-userauth'
+2018-05-06T22:17:53.279299+0000 [HoneyPotSSHTransport,21,115.238.245.6] Got remote error, code 11
+	reason: 
+2018-05-06T22:17:53.280068+0000 [HoneyPotSSHTransport,21,115.238.245.6] connection lost
+2018-05-06T22:17:53.280368+0000 [HoneyPotSSHTransport,21,115.238.245.6] Connection lost after 1 seconds
+2018-05-06T22:17:53.944349+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:17:53.944729+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:17:53.945284+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:60963 (172.17.0.3:2222) [session: 515b7193c1f4]
+2018-05-06T22:17:54.160445+0000 [HoneyPotSSHTransport,22,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:17:54.167057+0000 [HoneyPotSSHTransport,22,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:17:54.167315+0000 [HoneyPotSSHTransport,22,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:54.167554+0000 [HoneyPotSSHTransport,22,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:17:54.664822+0000 [HoneyPotSSHTransport,22,221.194.47.236] NEW KEYS
+2018-05-06T22:17:54.875601+0000 [HoneyPotSSHTransport,22,221.194.47.236] starting service 'ssh-userauth'
+2018-05-06T22:17:55.086950+0000 [HoneyPotSSHTransport,22,221.194.47.236] Got remote error, code 11
+	reason: 
+2018-05-06T22:17:55.087654+0000 [HoneyPotSSHTransport,22,221.194.47.236] connection lost
+2018-05-06T22:17:55.087949+0000 [HoneyPotSSHTransport,22,221.194.47.236] Connection lost after 1 seconds
+2018-05-06T22:20:58.280930+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:20:58.281318+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:20:58.281943+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.233:55408 (172.17.0.3:2222) [session: 0a8f95eb61e2]
+2018-05-06T22:20:58.499901+0000 [HoneyPotSSHTransport,23,221.194.47.233] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:20:58.506228+0000 [HoneyPotSSHTransport,23,221.194.47.233] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:20:58.506555+0000 [HoneyPotSSHTransport,23,221.194.47.233] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:20:58.506794+0000 [HoneyPotSSHTransport,23,221.194.47.233] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:20:59.009612+0000 [HoneyPotSSHTransport,23,221.194.47.233] NEW KEYS
+2018-05-06T22:20:59.223196+0000 [HoneyPotSSHTransport,23,221.194.47.233] starting service 'ssh-userauth'
+2018-05-06T22:20:59.437445+0000 [HoneyPotSSHTransport,23,221.194.47.233] Got remote error, code 11
+	reason: 
+2018-05-06T22:20:59.438227+0000 [HoneyPotSSHTransport,23,221.194.47.233] connection lost
+2018-05-06T22:20:59.438579+0000 [HoneyPotSSHTransport,23,221.194.47.233] Connection lost after 1 seconds
+2018-05-06T22:21:21.065449+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:21:21.065835+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:21:21.066437+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.6:40732 (172.17.0.3:2222) [session: 9596247c9975]
+2018-05-06T22:21:21.301570+0000 [HoneyPotSSHTransport,24,115.238.245.6] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:21:21.307824+0000 [HoneyPotSSHTransport,24,115.238.245.6] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:21:21.308083+0000 [HoneyPotSSHTransport,24,115.238.245.6] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:21:21.308325+0000 [HoneyPotSSHTransport,24,115.238.245.6] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:21:21.844047+0000 [HoneyPotSSHTransport,24,115.238.245.6] NEW KEYS
+2018-05-06T22:21:22.074878+0000 [HoneyPotSSHTransport,24,115.238.245.6] starting service 'ssh-userauth'
+2018-05-06T22:21:22.366537+0000 [HoneyPotSSHTransport,24,115.238.245.6] Got remote error, code 11
+	reason: 
+2018-05-06T22:21:22.367276+0000 [HoneyPotSSHTransport,24,115.238.245.6] connection lost
+2018-05-06T22:21:22.367572+0000 [HoneyPotSSHTransport,24,115.238.245.6] Connection lost after 1 seconds
+2018-05-06T22:22:26.698609+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:22:26.698996+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:22:26.699546+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.4:53155 (172.17.0.3:2222) [session: 399ef4698177]
+2018-05-06T22:22:26.984051+0000 [HoneyPotSSHTransport,25,115.238.245.4] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:22:26.990387+0000 [HoneyPotSSHTransport,25,115.238.245.4] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:22:26.990678+0000 [HoneyPotSSHTransport,25,115.238.245.4] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:26.990922+0000 [HoneyPotSSHTransport,25,115.238.245.4] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:27.545238+0000 [HoneyPotSSHTransport,25,115.238.245.4] NEW KEYS
+2018-05-06T22:22:27.803812+0000 [HoneyPotSSHTransport,25,115.238.245.4] starting service 'ssh-userauth'
+2018-05-06T22:22:28.063253+0000 [HoneyPotSSHTransport,25,115.238.245.4] Got remote error, code 11
+	reason: 
+2018-05-06T22:22:28.064049+0000 [HoneyPotSSHTransport,25,115.238.245.4] connection lost
+2018-05-06T22:22:28.064346+0000 [HoneyPotSSHTransport,25,115.238.245.4] Connection lost after 1 seconds
+2018-05-06T22:22:29.755129+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:22:29.755511+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:22:29.756067+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:32908 (172.17.0.3:2222) [session: b8a86b1f963d]
+2018-05-06T22:22:29.971279+0000 [HoneyPotSSHTransport,26,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:22:29.977613+0000 [HoneyPotSSHTransport,26,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:22:29.977868+0000 [HoneyPotSSHTransport,26,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:29.978107+0000 [HoneyPotSSHTransport,26,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:30.477799+0000 [HoneyPotSSHTransport,26,221.194.47.243] NEW KEYS
+2018-05-06T22:22:30.688524+0000 [HoneyPotSSHTransport,26,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:22:30.901261+0000 [HoneyPotSSHTransport,26,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:22:30.902041+0000 [HoneyPotSSHTransport,26,221.194.47.243] connection lost
+2018-05-06T22:22:30.902392+0000 [HoneyPotSSHTransport,26,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:22:42.992680+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:22:42.993069+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:22:42.993628+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 122.226.181.167:38116 (172.17.0.3:2222) [session: 1419fbb94647]
+2018-05-06T22:22:43.218821+0000 [HoneyPotSSHTransport,27,122.226.181.167] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:22:43.225043+0000 [HoneyPotSSHTransport,27,122.226.181.167] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:22:43.225298+0000 [HoneyPotSSHTransport,27,122.226.181.167] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:43.225539+0000 [HoneyPotSSHTransport,27,122.226.181.167] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:22:43.743789+0000 [HoneyPotSSHTransport,27,122.226.181.167] NEW KEYS
+2018-05-06T22:22:43.964457+0000 [HoneyPotSSHTransport,27,122.226.181.167] starting service 'ssh-userauth'
+2018-05-06T22:22:44.187737+0000 [HoneyPotSSHTransport,27,122.226.181.167] Got remote error, code 11
+	reason: 
+2018-05-06T22:22:44.188463+0000 [HoneyPotSSHTransport,27,122.226.181.167] connection lost
+2018-05-06T22:22:44.188756+0000 [HoneyPotSSHTransport,27,122.226.181.167] Connection lost after 1 seconds
+2018-05-06T22:26:02.228225+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:26:02.228606+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:26:02.229162+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.18.238.115:34396 (172.17.0.3:2222) [session: 82cabba17f45]
+2018-05-06T22:26:02.444619+0000 [HoneyPotSSHTransport,28,121.18.238.115] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:26:02.450917+0000 [HoneyPotSSHTransport,28,121.18.238.115] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:26:02.451201+0000 [HoneyPotSSHTransport,28,121.18.238.115] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:02.451446+0000 [HoneyPotSSHTransport,28,121.18.238.115] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:02.952131+0000 [HoneyPotSSHTransport,28,121.18.238.115] NEW KEYS
+2018-05-06T22:26:03.163258+0000 [HoneyPotSSHTransport,28,121.18.238.115] starting service 'ssh-userauth'
+2018-05-06T22:26:03.375648+0000 [HoneyPotSSHTransport,28,121.18.238.115] Got remote error, code 11
+	reason: 
+2018-05-06T22:26:03.376407+0000 [HoneyPotSSHTransport,28,121.18.238.115] connection lost
+2018-05-06T22:26:03.376705+0000 [HoneyPotSSHTransport,28,121.18.238.115] Connection lost after 1 seconds
+2018-05-06T22:26:43.409509+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:26:43.409889+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:26:43.410566+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:54359 (172.17.0.3:2222) [session: f3638c40435b]
+2018-05-06T22:26:43.680165+0000 [HoneyPotSSHTransport,29,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:26:43.686475+0000 [HoneyPotSSHTransport,29,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:26:43.686733+0000 [HoneyPotSSHTransport,29,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:43.686973+0000 [HoneyPotSSHTransport,29,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:44.292510+0000 [HoneyPotSSHTransport,29,115.238.245.8] NEW KEYS
+2018-05-06T22:26:44.391574+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:26:44.391900+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:26:44.392441+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:33652 (172.17.0.3:2222) [session: 3d24e9bd53ab]
+2018-05-06T22:26:44.557818+0000 [HoneyPotSSHTransport,29,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T22:26:44.607045+0000 [HoneyPotSSHTransport,30,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:26:44.613208+0000 [HoneyPotSSHTransport,30,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:26:44.613462+0000 [HoneyPotSSHTransport,30,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:44.613701+0000 [HoneyPotSSHTransport,30,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:26:44.823739+0000 [HoneyPotSSHTransport,29,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T22:26:44.824474+0000 [HoneyPotSSHTransport,29,115.238.245.8] connection lost
+2018-05-06T22:26:44.824767+0000 [HoneyPotSSHTransport,29,115.238.245.8] Connection lost after 1 seconds
+2018-05-06T22:26:45.111875+0000 [HoneyPotSSHTransport,30,221.194.47.221] NEW KEYS
+2018-05-06T22:26:45.321636+0000 [HoneyPotSSHTransport,30,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T22:26:45.532006+0000 [HoneyPotSSHTransport,30,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T22:26:45.532740+0000 [HoneyPotSSHTransport,30,221.194.47.221] connection lost
+2018-05-06T22:26:45.533036+0000 [HoneyPotSSHTransport,30,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T22:27:15.113267+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:27:15.113655+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:27:15.114207+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:40415 (172.17.0.3:2222) [session: cc3059b9a9d4]
+2018-05-06T22:27:15.350174+0000 [HoneyPotSSHTransport,31,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:27:15.356393+0000 [HoneyPotSSHTransport,31,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:27:15.356676+0000 [HoneyPotSSHTransport,31,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:27:15.356919+0000 [HoneyPotSSHTransport,31,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:27:15.922354+0000 [HoneyPotSSHTransport,31,115.238.245.8] NEW KEYS
+2018-05-06T22:27:16.152413+0000 [HoneyPotSSHTransport,31,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T22:27:16.495500+0000 [HoneyPotSSHTransport,31,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T22:27:16.496289+0000 [HoneyPotSSHTransport,31,115.238.245.8] connection lost
+2018-05-06T22:27:16.496585+0000 [HoneyPotSSHTransport,31,115.238.245.8] Connection lost after 1 seconds
+2018-05-06T22:28:28.715104+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:28:28.715496+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:28:28.716052+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.18.238.115:55591 (172.17.0.3:2222) [session: 178b8c8dda9e]
+2018-05-06T22:28:28.947334+0000 [HoneyPotSSHTransport,32,121.18.238.115] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:28:28.953690+0000 [HoneyPotSSHTransport,32,121.18.238.115] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:28:28.953948+0000 [HoneyPotSSHTransport,32,121.18.238.115] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:28:28.954188+0000 [HoneyPotSSHTransport,32,121.18.238.115] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:28:29.493633+0000 [HoneyPotSSHTransport,32,121.18.238.115] NEW KEYS
+2018-05-06T22:28:29.707710+0000 [HoneyPotSSHTransport,32,121.18.238.115] starting service 'ssh-userauth'
+2018-05-06T22:28:29.923313+0000 [HoneyPotSSHTransport,32,121.18.238.115] Got remote error, code 11
+	reason: 
+2018-05-06T22:28:29.924081+0000 [HoneyPotSSHTransport,32,121.18.238.115] connection lost
+2018-05-06T22:28:29.924378+0000 [HoneyPotSSHTransport,32,121.18.238.115] Connection lost after 1 seconds
+2018-05-06T22:30:14.991049+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:30:14.991435+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:30:14.991989+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:49345 (172.17.0.3:2222) [session: 05ec1ee5100c]
+2018-05-06T22:30:15.228905+0000 [HoneyPotSSHTransport,33,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:30:15.235210+0000 [HoneyPotSSHTransport,33,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:30:15.235469+0000 [HoneyPotSSHTransport,33,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:30:15.235709+0000 [HoneyPotSSHTransport,33,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:30:15.762667+0000 [HoneyPotSSHTransport,33,221.194.47.221] NEW KEYS
+2018-05-06T22:30:15.975564+0000 [HoneyPotSSHTransport,33,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T22:30:16.189035+0000 [HoneyPotSSHTransport,33,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T22:30:16.189780+0000 [HoneyPotSSHTransport,33,221.194.47.221] connection lost
+2018-05-06T22:30:16.190074+0000 [HoneyPotSSHTransport,33,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T22:30:46.939531+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:30:46.939921+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:30:46.940476+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 137.74.171.123:59067 (172.17.0.3:2222) [session: 5209c6a8044f]
+2018-05-06T22:30:46.947213+0000 [HoneyPotSSHTransport,34,137.74.171.123] connection lost
+2018-05-06T22:30:46.947614+0000 [HoneyPotSSHTransport,34,137.74.171.123] Connection lost after 0 seconds
+2018-05-06T22:32:53.662170+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:32:53.662618+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:32:53.663174+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 122.226.181.164:60122 (172.17.0.3:2222) [session: 4f6a25d314c8]
+2018-05-06T22:32:53.999374+0000 [HoneyPotSSHTransport,35,122.226.181.164] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:32:54.006051+0000 [HoneyPotSSHTransport,35,122.226.181.164] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:32:54.006328+0000 [HoneyPotSSHTransport,35,122.226.181.164] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:32:54.006568+0000 [HoneyPotSSHTransport,35,122.226.181.164] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:32:56.725705+0000 [HoneyPotSSHTransport,35,122.226.181.164] NEW KEYS
+2018-05-06T22:32:56.957367+0000 [HoneyPotSSHTransport,35,122.226.181.164] starting service 'ssh-userauth'
+2018-05-06T22:32:57.207628+0000 [HoneyPotSSHTransport,35,122.226.181.164] Got remote error, code 11
+	reason: 
+2018-05-06T22:32:57.208396+0000 [HoneyPotSSHTransport,35,122.226.181.164] connection lost
+2018-05-06T22:32:57.208687+0000 [HoneyPotSSHTransport,35,122.226.181.164] Connection lost after 3 seconds
+2018-05-06T22:33:19.611098+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:33:19.611481+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:33:19.612099+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 137.74.171.123:49512 (172.17.0.3:2222) [session: bed4ca4313ae]
+2018-05-06T22:33:19.661355+0000 [HoneyPotSSHTransport,36,137.74.171.123] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2018-05-06T22:33:19.667704+0000 [HoneyPotSSHTransport,36,137.74.171.123] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:33:19.667959+0000 [HoneyPotSSHTransport,36,137.74.171.123] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:33:19.668198+0000 [HoneyPotSSHTransport,36,137.74.171.123] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:33:22.628668+0000 [HoneyPotSSHTransport,36,137.74.171.123] NEW KEYS
+2018-05-06T22:33:22.663085+0000 [HoneyPotSSHTransport,36,137.74.171.123] starting service 'ssh-userauth'
+2018-05-06T22:33:22.698298+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,36,137.74.171.123] 'miner' trying auth 'password'
+2018-05-06T22:33:22.698977+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,36,137.74.171.123] login attempt [miner/miner] failed
+2018-05-06T22:33:23.702746+0000 [-] 'miner' failed auth 'password'
+2018-05-06T22:33:23.703162+0000 [-] unauthorized login: 
+2018-05-06T22:33:23.738465+0000 [HoneyPotSSHTransport,36,137.74.171.123] connection lost
+2018-05-06T22:33:23.738807+0000 [HoneyPotSSHTransport,36,137.74.171.123] Connection lost after 4 seconds
+2018-05-06T22:37:40.792005+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:37:40.792393+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:37:40.792947+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.6:34535 (172.17.0.3:2222) [session: 57807b22b80f]
+2018-05-06T22:37:41.057760+0000 [HoneyPotSSHTransport,37,115.238.245.6] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:37:41.064073+0000 [HoneyPotSSHTransport,37,115.238.245.6] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:37:41.064332+0000 [HoneyPotSSHTransport,37,115.238.245.6] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:37:41.064573+0000 [HoneyPotSSHTransport,37,115.238.245.6] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:37:43.706044+0000 [HoneyPotSSHTransport,37,115.238.245.6] NEW KEYS
+2018-05-06T22:37:43.938049+0000 [HoneyPotSSHTransport,37,115.238.245.6] starting service 'ssh-userauth'
+2018-05-06T22:37:44.171188+0000 [HoneyPotSSHTransport,37,115.238.245.6] Got remote error, code 11
+	reason: 
+2018-05-06T22:37:44.171896+0000 [HoneyPotSSHTransport,37,115.238.245.6] connection lost
+2018-05-06T22:37:44.172218+0000 [HoneyPotSSHTransport,37,115.238.245.6] Connection lost after 3 seconds
+2018-05-06T22:40:23.424662+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:40:23.425049+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:40:23.425606+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:39504 (172.17.0.3:2222) [session: 8a0ed6351102]
+2018-05-06T22:40:23.643357+0000 [HoneyPotSSHTransport,38,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:40:23.649587+0000 [HoneyPotSSHTransport,38,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:40:23.649844+0000 [HoneyPotSSHTransport,38,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:40:23.650087+0000 [HoneyPotSSHTransport,38,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:40:24.148476+0000 [HoneyPotSSHTransport,38,221.194.47.243] NEW KEYS
+2018-05-06T22:40:24.359477+0000 [HoneyPotSSHTransport,38,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:40:24.571703+0000 [HoneyPotSSHTransport,38,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:40:24.572476+0000 [HoneyPotSSHTransport,38,221.194.47.243] connection lost
+2018-05-06T22:40:24.572769+0000 [HoneyPotSSHTransport,38,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:47:44.532959+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:47:44.533352+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:47:44.533906+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:51846 (172.17.0.3:2222) [session: 7794e365aa87]
+2018-05-06T22:47:44.752711+0000 [HoneyPotSSHTransport,39,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:47:44.759013+0000 [HoneyPotSSHTransport,39,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:47:44.759272+0000 [HoneyPotSSHTransport,39,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:47:44.759513+0000 [HoneyPotSSHTransport,39,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:47:45.264692+0000 [HoneyPotSSHTransport,39,221.194.47.236] NEW KEYS
+2018-05-06T22:47:45.476941+0000 [HoneyPotSSHTransport,39,221.194.47.236] starting service 'ssh-userauth'
+2018-05-06T22:47:45.691519+0000 [HoneyPotSSHTransport,39,221.194.47.236] Got remote error, code 11
+	reason: 
+2018-05-06T22:47:45.692214+0000 [HoneyPotSSHTransport,39,221.194.47.236] connection lost
+2018-05-06T22:47:45.692509+0000 [HoneyPotSSHTransport,39,221.194.47.236] Connection lost after 1 seconds
+2018-05-06T22:48:47.277268+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:48:47.277656+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:48:47.278215+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:42030 (172.17.0.3:2222) [session: e2895c7d75d2]
+2018-05-06T22:48:47.549807+0000 [HoneyPotSSHTransport,40,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:48:47.556091+0000 [HoneyPotSSHTransport,40,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:48:47.556350+0000 [HoneyPotSSHTransport,40,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:48:47.556589+0000 [HoneyPotSSHTransport,40,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:48:48.163782+0000 [HoneyPotSSHTransport,40,221.194.47.243] NEW KEYS
+2018-05-06T22:48:48.439472+0000 [HoneyPotSSHTransport,40,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T22:48:48.714355+0000 [HoneyPotSSHTransport,40,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T22:48:48.715079+0000 [HoneyPotSSHTransport,40,221.194.47.243] connection lost
+2018-05-06T22:48:48.715372+0000 [HoneyPotSSHTransport,40,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T22:49:51.476369+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:49:51.476754+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:49:51.477308+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.239:44609 (172.17.0.3:2222) [session: 1e424b3ac24e]
+2018-05-06T22:49:51.769377+0000 [HoneyPotSSHTransport,41,221.194.47.239] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:49:51.775604+0000 [HoneyPotSSHTransport,41,221.194.47.239] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:49:51.775863+0000 [HoneyPotSSHTransport,41,221.194.47.239] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:49:51.776101+0000 [HoneyPotSSHTransport,41,221.194.47.239] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:49:52.426882+0000 [HoneyPotSSHTransport,41,221.194.47.239] NEW KEYS
+2018-05-06T22:49:52.713837+0000 [HoneyPotSSHTransport,41,221.194.47.239] starting service 'ssh-userauth'
+2018-05-06T22:49:53.942132+0000 [HoneyPotSSHTransport,41,221.194.47.239] Got remote error, code 11
+	reason: 
+2018-05-06T22:49:53.942964+0000 [HoneyPotSSHTransport,41,221.194.47.239] connection lost
+2018-05-06T22:49:53.943261+0000 [HoneyPotSSHTransport,41,221.194.47.239] Connection lost after 2 seconds
+2018-05-06T22:53:42.086554+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:53:42.086940+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:53:42.087561+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:54754 (172.17.0.3:2222) [session: dc30847ab8b5]
+2018-05-06T22:53:42.322911+0000 [HoneyPotSSHTransport,42,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:53:42.329244+0000 [HoneyPotSSHTransport,42,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:53:42.329505+0000 [HoneyPotSSHTransport,42,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:53:42.329745+0000 [HoneyPotSSHTransport,42,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:53:42.868377+0000 [HoneyPotSSHTransport,42,115.238.245.8] NEW KEYS
+2018-05-06T22:53:43.099323+0000 [HoneyPotSSHTransport,42,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T22:53:43.330867+0000 [HoneyPotSSHTransport,42,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T22:53:43.331576+0000 [HoneyPotSSHTransport,42,115.238.245.8] connection lost
+2018-05-06T22:53:43.331870+0000 [HoneyPotSSHTransport,42,115.238.245.8] Connection lost after 1 seconds
+2018-05-06T22:54:05.639297+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:54:05.639680+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:54:05.640338+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.233:33504 (172.17.0.3:2222) [session: 464155460f94]
+2018-05-06T22:54:05.932034+0000 [HoneyPotSSHTransport,43,221.194.47.233] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:54:05.938358+0000 [HoneyPotSSHTransport,43,221.194.47.233] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:54:05.938621+0000 [HoneyPotSSHTransport,43,221.194.47.233] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:54:05.938862+0000 [HoneyPotSSHTransport,43,221.194.47.233] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:54:07.278943+0000 [HoneyPotSSHTransport,43,221.194.47.233] NEW KEYS
+2018-05-06T22:54:08.884930+0000 [HoneyPotSSHTransport,43,221.194.47.233] starting service 'ssh-userauth'
+2018-05-06T22:54:09.208609+0000 [HoneyPotSSHTransport,43,221.194.47.233] Got remote error, code 11
+	reason: 
+2018-05-06T22:54:09.209343+0000 [HoneyPotSSHTransport,43,221.194.47.233] connection lost
+2018-05-06T22:54:09.209638+0000 [HoneyPotSSHTransport,43,221.194.47.233] Connection lost after 3 seconds
+2018-05-06T22:55:51.551674+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T22:55:51.552063+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T22:55:51.552617+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.18.238.115:34102 (172.17.0.3:2222) [session: 14da493f8309]
+2018-05-06T22:55:51.768386+0000 [HoneyPotSSHTransport,44,121.18.238.115] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T22:55:51.774728+0000 [HoneyPotSSHTransport,44,121.18.238.115] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T22:55:51.774987+0000 [HoneyPotSSHTransport,44,121.18.238.115] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:55:51.775226+0000 [HoneyPotSSHTransport,44,121.18.238.115] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T22:55:52.273271+0000 [HoneyPotSSHTransport,44,121.18.238.115] NEW KEYS
+2018-05-06T22:55:52.484427+0000 [HoneyPotSSHTransport,44,121.18.238.115] starting service 'ssh-userauth'
+2018-05-06T22:55:52.697510+0000 [HoneyPotSSHTransport,44,121.18.238.115] Got remote error, code 11
+	reason: 
+2018-05-06T22:55:52.698303+0000 [HoneyPotSSHTransport,44,121.18.238.115] connection lost
+2018-05-06T22:55:52.698607+0000 [HoneyPotSSHTransport,44,121.18.238.115] Connection lost after 1 seconds
+2018-05-06T23:01:23.212985+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:01:23.213374+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:01:23.213934+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 122.226.181.166:37068 (172.17.0.3:2222) [session: 56f7813d3570]
+2018-05-06T23:01:23.521944+0000 [HoneyPotSSHTransport,45,122.226.181.166] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:01:23.528204+0000 [HoneyPotSSHTransport,45,122.226.181.166] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:01:23.528465+0000 [HoneyPotSSHTransport,45,122.226.181.166] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:01:23.528706+0000 [HoneyPotSSHTransport,45,122.226.181.166] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:01:29.707694+0000 [HoneyPotSSHTransport,45,122.226.181.166] NEW KEYS
+2018-05-06T23:01:29.971380+0000 [HoneyPotSSHTransport,45,122.226.181.166] starting service 'ssh-userauth'
+2018-05-06T23:01:30.255965+0000 [HoneyPotSSHTransport,45,122.226.181.166] Got remote error, code 11
+	reason: 
+2018-05-06T23:01:30.256707+0000 [HoneyPotSSHTransport,45,122.226.181.166] connection lost
+2018-05-06T23:01:30.257005+0000 [HoneyPotSSHTransport,45,122.226.181.166] Connection lost after 7 seconds
+2018-05-06T23:02:17.857842+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:02:17.858226+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:02:17.858834+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:46490 (172.17.0.3:2222) [session: aa24404697d9]
+2018-05-06T23:02:18.131701+0000 [HoneyPotSSHTransport,46,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:02:18.138000+0000 [HoneyPotSSHTransport,46,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:02:18.138272+0000 [HoneyPotSSHTransport,46,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:02:18.138520+0000 [HoneyPotSSHTransport,46,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:02:18.814037+0000 [HoneyPotSSHTransport,46,115.238.245.8] NEW KEYS
+2018-05-06T23:02:19.077022+0000 [HoneyPotSSHTransport,46,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T23:02:19.363426+0000 [HoneyPotSSHTransport,46,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T23:02:19.364175+0000 [HoneyPotSSHTransport,46,115.238.245.8] connection lost
+2018-05-06T23:02:19.364469+0000 [HoneyPotSSHTransport,46,115.238.245.8] Connection lost after 1 seconds
+2018-05-06T23:02:40.269431+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:02:40.269829+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:02:40.270440+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.6:45413 (172.17.0.3:2222) [session: d814b6fe5959]
+2018-05-06T23:02:40.830467+0000 [HoneyPotSSHTransport,47,115.238.245.6] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:02:40.836709+0000 [HoneyPotSSHTransport,47,115.238.245.6] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:02:40.836969+0000 [HoneyPotSSHTransport,47,115.238.245.6] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:02:40.837210+0000 [HoneyPotSSHTransport,47,115.238.245.6] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:02:41.987934+0000 [HoneyPotSSHTransport,47,115.238.245.6] NEW KEYS
+2018-05-06T23:02:42.226173+0000 [HoneyPotSSHTransport,47,115.238.245.6] starting service 'ssh-userauth'
+2018-05-06T23:02:42.468057+0000 [HoneyPotSSHTransport,47,115.238.245.6] Got remote error, code 11
+	reason: 
+2018-05-06T23:02:42.468810+0000 [HoneyPotSSHTransport,47,115.238.245.6] connection lost
+2018-05-06T23:02:42.469104+0000 [HoneyPotSSHTransport,47,115.238.245.6] Connection lost after 2 seconds
+2018-05-06T23:05:00.153827+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:05:00.154221+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:05:00.154898+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.221:35518 (172.17.0.3:2222) [session: 75deadb0b05f]
+2018-05-06T23:05:00.370677+0000 [HoneyPotSSHTransport,48,221.194.47.221] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:05:00.376969+0000 [HoneyPotSSHTransport,48,221.194.47.221] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:05:00.377228+0000 [HoneyPotSSHTransport,48,221.194.47.221] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:05:00.377471+0000 [HoneyPotSSHTransport,48,221.194.47.221] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:05:00.874263+0000 [HoneyPotSSHTransport,48,221.194.47.221] NEW KEYS
+2018-05-06T23:05:01.083974+0000 [HoneyPotSSHTransport,48,221.194.47.221] starting service 'ssh-userauth'
+2018-05-06T23:05:01.295667+0000 [HoneyPotSSHTransport,48,221.194.47.221] Got remote error, code 11
+	reason: 
+2018-05-06T23:05:01.296413+0000 [HoneyPotSSHTransport,48,221.194.47.221] connection lost
+2018-05-06T23:05:01.296707+0000 [HoneyPotSSHTransport,48,221.194.47.221] Connection lost after 1 seconds
+2018-05-06T23:05:33.313450+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:05:33.313840+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:05:33.314547+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.44.211:34654 (172.17.0.3:2222) [session: 73be9c3550c0]
+2018-05-06T23:05:33.530529+0000 [HoneyPotSSHTransport,49,221.194.44.211] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:05:33.536821+0000 [HoneyPotSSHTransport,49,221.194.44.211] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:05:33.537079+0000 [HoneyPotSSHTransport,49,221.194.44.211] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:05:33.537323+0000 [HoneyPotSSHTransport,49,221.194.44.211] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:05:34.038347+0000 [HoneyPotSSHTransport,49,221.194.44.211] NEW KEYS
+2018-05-06T23:05:34.250047+0000 [HoneyPotSSHTransport,49,221.194.44.211] starting service 'ssh-userauth'
+2018-05-06T23:05:34.462917+0000 [HoneyPotSSHTransport,49,221.194.44.211] Got remote error, code 11
+	reason: 
+2018-05-06T23:05:34.463698+0000 [HoneyPotSSHTransport,49,221.194.44.211] connection lost
+2018-05-06T23:05:34.463995+0000 [HoneyPotSSHTransport,49,221.194.44.211] Connection lost after 1 seconds
+2018-05-06T23:10:02.380440+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:10:02.380851+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:10:02.381409+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 119.249.54.217:36882 (172.17.0.3:2222) [session: 22ba0fd62233]
+2018-05-06T23:10:02.595979+0000 [HoneyPotSSHTransport,50,119.249.54.217] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:10:02.602301+0000 [HoneyPotSSHTransport,50,119.249.54.217] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:10:02.602566+0000 [HoneyPotSSHTransport,50,119.249.54.217] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:10:02.602807+0000 [HoneyPotSSHTransport,50,119.249.54.217] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:10:03.063628+0000 [HoneyPotSSHTransport,50,119.249.54.217] NEW KEYS
+2018-05-06T23:10:03.269955+0000 [HoneyPotSSHTransport,50,119.249.54.217] starting service 'ssh-userauth'
+2018-05-06T23:10:03.479682+0000 [HoneyPotSSHTransport,50,119.249.54.217] Got remote error, code 11
+	reason: 
+2018-05-06T23:10:03.480440+0000 [HoneyPotSSHTransport,50,119.249.54.217] connection lost
+2018-05-06T23:10:03.480738+0000 [HoneyPotSSHTransport,50,119.249.54.217] Connection lost after 1 seconds
+2018-05-06T23:10:06.024349+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:10:06.024725+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:10:06.025285+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.2:54392 (172.17.0.3:2222) [session: 70f400760d5d]
+2018-05-06T23:10:06.332202+0000 [HoneyPotSSHTransport,51,115.238.245.2] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:10:06.338441+0000 [HoneyPotSSHTransport,51,115.238.245.2] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:10:06.338701+0000 [HoneyPotSSHTransport,51,115.238.245.2] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:10:06.338940+0000 [HoneyPotSSHTransport,51,115.238.245.2] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:10:07.088041+0000 [HoneyPotSSHTransport,51,115.238.245.2] NEW KEYS
+2018-05-06T23:10:07.353181+0000 [HoneyPotSSHTransport,51,115.238.245.2] starting service 'ssh-userauth'
+2018-05-06T23:10:07.913251+0000 [HoneyPotSSHTransport,51,115.238.245.2] Got remote error, code 11
+	reason: 
+2018-05-06T23:10:07.914048+0000 [HoneyPotSSHTransport,51,115.238.245.2] connection lost
+2018-05-06T23:10:07.914398+0000 [HoneyPotSSHTransport,51,115.238.245.2] Connection lost after 1 seconds
+2018-05-06T23:11:36.061072+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:11:36.061462+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:11:36.062017+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.44.211:50423 (172.17.0.3:2222) [session: 433a4c0cf756]
+2018-05-06T23:11:36.315699+0000 [HoneyPotSSHTransport,52,221.194.44.211] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:11:36.321890+0000 [HoneyPotSSHTransport,52,221.194.44.211] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:11:36.322168+0000 [HoneyPotSSHTransport,52,221.194.44.211] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:11:36.322427+0000 [HoneyPotSSHTransport,52,221.194.44.211] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:11:36.894867+0000 [HoneyPotSSHTransport,52,221.194.44.211] NEW KEYS
+2018-05-06T23:11:37.128838+0000 [HoneyPotSSHTransport,52,221.194.44.211] starting service 'ssh-userauth'
+2018-05-06T23:11:37.351639+0000 [HoneyPotSSHTransport,52,221.194.44.211] Got remote error, code 11
+	reason: 
+2018-05-06T23:11:37.352366+0000 [HoneyPotSSHTransport,52,221.194.44.211] connection lost
+2018-05-06T23:11:37.352659+0000 [HoneyPotSSHTransport,52,221.194.44.211] Connection lost after 1 seconds
+2018-05-06T23:12:31.569374+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:12:31.569777+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:12:31.570421+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 139.162.122.110:53404 (172.17.0.3:2222) [session: a5c8e4654b3d]
+2018-05-06T23:12:31.849858+0000 [HoneyPotSSHTransport,53,139.162.122.110] Remote SSH version: SSH-2.0-ZGrab ZGrab SSH Survey
+2018-05-06T23:12:31.858669+0000 [HoneyPotSSHTransport,53,139.162.122.110] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T23:12:31.858927+0000 [HoneyPotSSHTransport,53,139.162.122.110] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
+2018-05-06T23:12:31.859164+0000 [HoneyPotSSHTransport,53,139.162.122.110] incoming: 'aes128-ctr' 'hmac-md5' 'none'
+2018-05-06T23:12:31.859781+0000 [HoneyPotSSHTransport,53,139.162.122.110] connection lost
+2018-05-06T23:12:31.860086+0000 [HoneyPotSSHTransport,53,139.162.122.110] Connection lost after 0 seconds
+2018-05-06T23:12:32.145663+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:12:32.145995+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:12:32.146649+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 139.162.122.110:53608 (172.17.0.3:2222) [session: 256712344fa1]
+2018-05-06T23:12:32.436437+0000 [HoneyPotSSHTransport,54,139.162.122.110] Remote SSH version: SSH-2.0-Go
+2018-05-06T23:12:32.442933+0000 [HoneyPotSSHTransport,54,139.162.122.110] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2018-05-06T23:12:32.443190+0000 [HoneyPotSSHTransport,54,139.162.122.110] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:12:32.443430+0000 [HoneyPotSSHTransport,54,139.162.122.110] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:12:32.739787+0000 [HoneyPotSSHTransport,54,139.162.122.110] NEW KEYS
+2018-05-06T23:12:32.740482+0000 [HoneyPotSSHTransport,54,139.162.122.110] starting service 'ssh-userauth'
+2018-05-06T23:12:33.055095+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,54,139.162.122.110] '' trying auth 'none'
+2018-05-06T23:12:33.366547+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,54,139.162.122.110] '' trying auth 'password'
+2018-05-06T23:12:33.367275+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,54,139.162.122.110] login attempt [/] failed
+2018-05-06T23:12:34.371042+0000 [-] '' failed auth 'password'
+2018-05-06T23:12:34.371469+0000 [-] unauthorized login: 
+2018-05-06T23:12:34.658288+0000 [HoneyPotSSHTransport,54,139.162.122.110] connection lost
+2018-05-06T23:12:34.658658+0000 [HoneyPotSSHTransport,54,139.162.122.110] Connection lost after 2 seconds
+2018-05-06T23:12:44.022622+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:12:44.023006+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:12:44.023557+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:37164 (172.17.0.3:2222) [session: 14ed62bac026]
+2018-05-06T23:12:44.253213+0000 [HoneyPotSSHTransport,55,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:12:44.259362+0000 [HoneyPotSSHTransport,55,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:12:44.259617+0000 [HoneyPotSSHTransport,55,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:12:44.259859+0000 [HoneyPotSSHTransport,55,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:12:44.792471+0000 [HoneyPotSSHTransport,55,221.194.47.243] NEW KEYS
+2018-05-06T23:12:45.013962+0000 [HoneyPotSSHTransport,55,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T23:12:45.227756+0000 [HoneyPotSSHTransport,55,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T23:12:45.228446+0000 [HoneyPotSSHTransport,55,221.194.47.243] connection lost
+2018-05-06T23:12:45.228737+0000 [HoneyPotSSHTransport,55,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T23:15:15.985048+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:15:15.985459+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:15:15.986014+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 119.249.54.217:43155 (172.17.0.3:2222) [session: cbeb636305b7]
+2018-05-06T23:15:16.200282+0000 [HoneyPotSSHTransport,56,119.249.54.217] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:15:16.206611+0000 [HoneyPotSSHTransport,56,119.249.54.217] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:15:16.206871+0000 [HoneyPotSSHTransport,56,119.249.54.217] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:15:16.207110+0000 [HoneyPotSSHTransport,56,119.249.54.217] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:15:16.703221+0000 [HoneyPotSSHTransport,56,119.249.54.217] NEW KEYS
+2018-05-06T23:15:16.913069+0000 [HoneyPotSSHTransport,56,119.249.54.217] starting service 'ssh-userauth'
+2018-05-06T23:15:17.123435+0000 [HoneyPotSSHTransport,56,119.249.54.217] Got remote error, code 11
+	reason: 
+2018-05-06T23:15:17.124174+0000 [HoneyPotSSHTransport,56,119.249.54.217] connection lost
+2018-05-06T23:15:17.124468+0000 [HoneyPotSSHTransport,56,119.249.54.217] Connection lost after 1 seconds
+2018-05-06T23:16:51.007650+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:16:51.008043+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:16:51.008598+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.239:56365 (172.17.0.3:2222) [session: 57d0d4d75f45]
+2018-05-06T23:16:51.224505+0000 [HoneyPotSSHTransport,57,221.194.47.239] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:16:51.230940+0000 [HoneyPotSSHTransport,57,221.194.47.239] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:16:51.231197+0000 [HoneyPotSSHTransport,57,221.194.47.239] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:16:51.231437+0000 [HoneyPotSSHTransport,57,221.194.47.239] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:16:51.730703+0000 [HoneyPotSSHTransport,57,221.194.47.239] NEW KEYS
+2018-05-06T23:16:51.942201+0000 [HoneyPotSSHTransport,57,221.194.47.239] starting service 'ssh-userauth'
+2018-05-06T23:16:52.161729+0000 [HoneyPotSSHTransport,57,221.194.47.239] Got remote error, code 11
+	reason: 
+2018-05-06T23:16:52.162541+0000 [HoneyPotSSHTransport,57,221.194.47.239] connection lost
+2018-05-06T23:16:52.162848+0000 [HoneyPotSSHTransport,57,221.194.47.239] Connection lost after 1 seconds
+2018-05-06T23:17:29.647818+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:17:29.648208+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:17:29.648761+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.2:55444 (172.17.0.3:2222) [session: e64c0f13aa6a]
+2018-05-06T23:17:29.916967+0000 [HoneyPotSSHTransport,58,115.238.245.2] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:17:29.923265+0000 [HoneyPotSSHTransport,58,115.238.245.2] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:17:29.923518+0000 [HoneyPotSSHTransport,58,115.238.245.2] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:17:29.923757+0000 [HoneyPotSSHTransport,58,115.238.245.2] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:17:30.526192+0000 [HoneyPotSSHTransport,58,115.238.245.2] NEW KEYS
+2018-05-06T23:17:30.790006+0000 [HoneyPotSSHTransport,58,115.238.245.2] starting service 'ssh-userauth'
+2018-05-06T23:17:31.054543+0000 [HoneyPotSSHTransport,58,115.238.245.2] Got remote error, code 11
+	reason: 
+2018-05-06T23:17:31.055252+0000 [HoneyPotSSHTransport,58,115.238.245.2] connection lost
+2018-05-06T23:17:31.055547+0000 [HoneyPotSSHTransport,58,115.238.245.2] Connection lost after 1 seconds
+2018-05-06T23:29:48.021460+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:29:48.021848+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:29:48.022479+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:51115 (172.17.0.3:2222) [session: 6c134d8b5c8e]
+2018-05-06T23:29:48.316979+0000 [HoneyPotSSHTransport,59,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:29:48.323259+0000 [HoneyPotSSHTransport,59,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:29:48.323515+0000 [HoneyPotSSHTransport,59,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:29:48.323753+0000 [HoneyPotSSHTransport,59,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:29:48.823987+0000 [HoneyPotSSHTransport,59,115.238.245.8] NEW KEYS
+2018-05-06T23:29:49.055217+0000 [HoneyPotSSHTransport,59,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T23:29:49.289342+0000 [HoneyPotSSHTransport,59,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T23:29:49.290863+0000 [HoneyPotSSHTransport,59,115.238.245.8] connection lost
+2018-05-06T23:29:49.291184+0000 [HoneyPotSSHTransport,59,115.238.245.8] Connection lost after 1 seconds
+2018-05-06T23:29:52.705431+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:29:52.705805+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:29:52.706473+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.243:42891 (172.17.0.3:2222) [session: accf18ff858d]
+2018-05-06T23:29:52.921771+0000 [HoneyPotSSHTransport,60,221.194.47.243] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:29:52.928025+0000 [HoneyPotSSHTransport,60,221.194.47.243] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:29:52.928279+0000 [HoneyPotSSHTransport,60,221.194.47.243] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:29:52.928517+0000 [HoneyPotSSHTransport,60,221.194.47.243] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:29:53.423705+0000 [HoneyPotSSHTransport,60,221.194.47.243] NEW KEYS
+2018-05-06T23:29:53.634624+0000 [HoneyPotSSHTransport,60,221.194.47.243] starting service 'ssh-userauth'
+2018-05-06T23:29:53.846006+0000 [HoneyPotSSHTransport,60,221.194.47.243] Got remote error, code 11
+	reason: 
+2018-05-06T23:29:53.846713+0000 [HoneyPotSSHTransport,60,221.194.47.243] connection lost
+2018-05-06T23:29:53.847005+0000 [HoneyPotSSHTransport,60,221.194.47.243] Connection lost after 1 seconds
+2018-05-06T23:31:43.899813+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:31:43.900198+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:31:43.900752+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.233:47277 (172.17.0.3:2222) [session: fc875335aafb]
+2018-05-06T23:31:44.119807+0000 [HoneyPotSSHTransport,61,221.194.47.233] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:31:44.126122+0000 [HoneyPotSSHTransport,61,221.194.47.233] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:31:44.126396+0000 [HoneyPotSSHTransport,61,221.194.47.233] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:31:44.126639+0000 [HoneyPotSSHTransport,61,221.194.47.233] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:31:44.630701+0000 [HoneyPotSSHTransport,61,221.194.47.233] NEW KEYS
+2018-05-06T23:31:44.844222+0000 [HoneyPotSSHTransport,61,221.194.47.233] starting service 'ssh-userauth'
+2018-05-06T23:31:45.058558+0000 [HoneyPotSSHTransport,61,221.194.47.233] Got remote error, code 11
+	reason: 
+2018-05-06T23:31:45.059320+0000 [HoneyPotSSHTransport,61,221.194.47.233] connection lost
+2018-05-06T23:31:45.059617+0000 [HoneyPotSSHTransport,61,221.194.47.233] Connection lost after 1 seconds
+2018-05-06T23:32:11.482744+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:32:11.483130+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:32:11.483685+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:58628 (172.17.0.3:2222) [session: 96ac6170d3b0]
+2018-05-06T23:32:11.702040+0000 [HoneyPotSSHTransport,62,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:32:11.708243+0000 [HoneyPotSSHTransport,62,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:32:11.708499+0000 [HoneyPotSSHTransport,62,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:32:11.708740+0000 [HoneyPotSSHTransport,62,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:32:12.175706+0000 [HoneyPotSSHTransport,62,221.194.47.236] NEW KEYS
+2018-05-06T23:32:12.388481+0000 [HoneyPotSSHTransport,62,221.194.47.236] starting service 'ssh-userauth'
+2018-05-06T23:32:12.602155+0000 [HoneyPotSSHTransport,62,221.194.47.236] Got remote error, code 11
+	reason: 
+2018-05-06T23:32:12.602899+0000 [HoneyPotSSHTransport,62,221.194.47.236] connection lost
+2018-05-06T23:32:12.603195+0000 [HoneyPotSSHTransport,62,221.194.47.236] Connection lost after 1 seconds
+2018-05-06T23:53:01.306168+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1
+2018-05-06T23:53:01.306595+0000 [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256
+2018-05-06T23:53:01.307150+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.238.245.8:50870 (172.17.0.3:2222) [session: 3aeac8d48f11]
+2018-05-06T23:53:01.543166+0000 [HoneyPotSSHTransport,63,115.238.245.8] Remote SSH version: SSH-2.0-PUTTY
+2018-05-06T23:53:01.549449+0000 [HoneyPotSSHTransport,63,115.238.245.8] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2018-05-06T23:53:01.549708+0000 [HoneyPotSSHTransport,63,115.238.245.8] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:53:01.549949+0000 [HoneyPotSSHTransport,63,115.238.245.8] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2018-05-06T23:53:02.089671+0000 [HoneyPotSSHTransport,63,115.238.245.8] NEW KEYS
+2018-05-06T23:53:02.321261+0000 [HoneyPotSSHTransport,63,115.238.245.8] starting service 'ssh-userauth'
+2018-05-06T23:53:02.553489+0000 [HoneyPotSSHTransport,63,115.238.245.8] Got remote error, code 11
+	reason: 
+2018-05-06T23:53:02.554288+0000 [HoneyPotSSHTransport,63,115.238.245.8] connection lost
+2018-05-06T23:53:02.554596+0000 [HoneyPotSSHTransport,63,115.238.245.8] Connection lost after 1 seconds
